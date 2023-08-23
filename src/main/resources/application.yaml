@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloudschema?useSSL=false
+    username: root
+    password: Hello1306**
+
+  jpa:
+    hibernate:
+      ddl-auto: update
