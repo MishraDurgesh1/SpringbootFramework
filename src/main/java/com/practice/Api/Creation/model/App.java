@@ -6,7 +6,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "cloud_table")
-public class CloudVendor {
+public class App {
 
     @Id
     private String vendorId;
@@ -14,10 +14,10 @@ public class CloudVendor {
     private String vendorAddress;
     private String vendorPhoneNumber;
 
-    public CloudVendor() {
+    public App() {
     }
 
-    public CloudVendor(String vendorId, String vendorName, String vendorAddress, String vendorPhoneNumber) {
+    public App(String vendorId, String vendorName, String vendorAddress, String vendorPhoneNumber) {
         this.vendorId = vendorId;
         this.vendorName = vendorName;
         this.vendorAddress = vendorAddress;
